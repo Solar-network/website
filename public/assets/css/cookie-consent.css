@@ -37,13 +37,13 @@
 /* line 21, cookie-consent.scss */
 
 .cookie-consent-modal .modal-content-wrap .modal-content {
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: none !important;
     background-color: #fefefe;
     color: #123;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 10px 0 rgb(141 141 141 / 40%);
     padding: 0;
     max-width: 700px;
-    border-radius: 0.2rem;
+    border-radius: 1rem;
 }
 
 
@@ -77,14 +77,14 @@
 /* line 48, cookie-consent.scss */
 
 .cookie-consent-modal .modal-content-wrap .modal-content .modal-body a {
-    color: #3579f6;
+    color: #ed5c15;
 }
 
 
 /* line 51, cookie-consent.scss */
 
 .cookie-consent-modal .modal-content-wrap .modal-content .modal-body a:hover {
-    color: #0b5bed;
+    color: #ff8733;
 }
 
 
@@ -92,6 +92,7 @@
 
 .cookie-consent-modal .modal-content-wrap .modal-content .modal-footer {
     padding: 1rem 0.5rem 0.5rem 0.5rem;
+    justify-content: center !important;
 }
 
 
@@ -115,13 +116,14 @@
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
+    height: auto !important;
 }
 
 
 /* line 77, cookie-consent.scss */
 
 .cookie-consent-modal .modal-content-wrap .modal-content .modal-footer .buttons .btn.btn-primary {
-    background-color: #3579f6;
+    background-color: #ed5c15;
     color: white;
 }
 
@@ -129,7 +131,7 @@
 /* line 81, cookie-consent.scss */
 
 .cookie-consent-modal .modal-content-wrap .modal-content .modal-footer .buttons .btn.btn-primary:hover {
-    background-color: #0b5bed;
+    background-color: #ff8733;
 }
 
 
